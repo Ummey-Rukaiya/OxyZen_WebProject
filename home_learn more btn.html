@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+        <title>Plant Care Reminder</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    </head>
+    <body>
+        <section id="sub-header">
+            <nav>
+                <a href="index.html"></a>
+                <h1 class="logo">OxyZen</h1>
+                <div class="nav-link" id="navLink">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="feature.html">FEATURE</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="http://localhost:5173/" target="_blank">JOIN</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <h1>Learn More About OxyZen</h1>
+            
+        </section>
+
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>Why Plant Care Matters?<br><br></h1>
+                    <p>Plants not only beautify our surroundings but also improve air quality, reduce stress, and contribute to a healthier environment. However, keeping plants healthy requires proper care, including watering, sunlight exposure, fertilization, and pest control. Neglecting these needs can lead to wilting, slow growth, or even plant death.<br><br></p>
+                    
+                </div>
+                <div class="about-col">
+                    <img src="images/1.webp">
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-col">
+                    <img src="images/plant3.avif">
+                    
+                </div>
+                <div class="about-col">
+                    <h2>Essential Aspects of Plant Care<br><br></h2>
+                    <p>1. Watering – Different plants require different watering schedules. Overwatering can cause root rot, while underwatering leads to dehydration.</p>
+                    <p>2. Fertilization – Plants need nutrients like nitrogen, phosphorus, and potassium to grow. Fertilizing at the right time ensures healthy development.</p>
+                    <p>3. Sunlight – Some plants thrive in direct sunlight, while others prefer shade. Understanding your plant’s light needs is crucial.</p>
+                    <p>4. Temperature & Humidity – Indoor plants often require stable temperatures and humidity levels. Sudden changes can stress plants.</p>
+                    <p>5. Pest & Disease Control – Identifying early signs of pests or diseases can save your plants from damage.</p>
+                    <p>6. Pruning & Repotting – Regular pruning helps plants grow better, and repotting ensures they have enough space for root expansion.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="about-col">
+                    <h3>How a Plant Care Reminder Helps?<br><br></h3>
+                    <p>Taking care of multiple plants can be overwhelming. A Plant Care Reminder system simplifies plant maintenance by:<br>
+                        ✅ Sending notifications for watering, fertilization, and repotting<br>
+                        ✅ Keeping track of plant health with notes and logs<br>
+                        ✅ Providing customized care tips based on plant type<br>
+                        ✅ Helping users build a consistent plant care routine<br>
+                        <br>
+                        With a Plant Care Reminder, you can ensure your plants receive the right care at the right time, keeping them healthy and thriving!</p>
+                </div>
+                <div class="about-col">
+                    <img src="images/background.avif">
+                </div>
+            </div>
+
+        </section>
+
+
+        
+<!--Footer-->
+
+<section id="footer">
+    <div class="container footer-row">
+        <hr>
+        <div class="footer-left-col">
+            <div class="footer-links">
+                <div class="link-title">
+                    <h4>Product</h4>
+                    <small>Our Plan</small><br>
+                </div>
+                <div class="link-title">
+                    <h4>About Us</h4>
+                    <small>FAQs</small><br>
+                </div>
+                <div class="link-title">
+                    <h4>Support</h4>
+                    <small>Features</small><br>
+                    <small>Contact Us</small>
+                </div>
+            </div>
+        </div>
+        <div class="footer-right-col">
+            <div class="footer-info">
+                <div class="copyright-text">
+                    <small>support@OxyZen.com</small>
+                    <small>copyright 2025 OxyZen</small>
+                </div>
+                <div class="footer-logo">
+                    <img src="images/logo.png">
+                    <button class="common-btn">English</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Social-icons-->
+
+<div class="social-icons">
+    <a href="https://www.facebook.com" target="_blank">
+        <img src="images/facebook.png">
+    </a>
+    <a href="https://www.instagram.com" target="_blank">
+        <img src="images/instagram.png">
+    </a>
+    <a href="https://www.twitter.com" target="_blank">
+        <img src="images/twitter.png">
+    </a>
+    <a href="https://www.linkedin.com" target="_blank">
+        <img src="images/linkedin.png">
+    </a>
+</div>
+
+<!--Javascript for Toggle menu-->
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+
+        </script>
+
+    </body>
+
+</html>
