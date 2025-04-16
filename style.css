@@ -353,12 +353,6 @@ p{
     width: 100%;
     
 }
-.contact-left-col p{
-    text-align: left;
-    margin-left: 0;
-    width: 100%;
-    
-}
 .contact-right-col{
     flex-basis: 50%;
     border-radius: 10px;
@@ -646,7 +640,7 @@ nav .fa{
     box-sizing: border-box;
 }
 .contact-inputs:focus{
-    border: 2px solid rgb(205, 184, 92);
+    border: 2ps solid rgb(205, 184, 92);
 }
 @media only screen and (max-width: 770px){
     #header{
